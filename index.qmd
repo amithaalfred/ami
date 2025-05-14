@@ -1,0 +1,19 @@
+---
+title: "ROC Humvar"
+format: html
+editor: visual
+---
+
+
+```{r setup, include=FALSE}
+library(tidymodels)
+library(ggplot2)
+library(readr)
+```
+
+## Load in humvar dataset
+
+```{r loadData}
+df <- read.csv("dataset/humvar.csv")
+head(df)
+```
